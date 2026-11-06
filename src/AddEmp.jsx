@@ -23,7 +23,7 @@ function AddEmp() {
       if(response.status === 200 || response.status === 201){
  alert("employee added succesfully")
  navigate('/Listemp')
-   window.location.reload();
+  //  window.location.reload();
       }
      
         }
